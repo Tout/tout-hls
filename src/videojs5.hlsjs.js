@@ -1,4 +1,4 @@
-(function(videojs, Hls) {
+module.exports = function(videojs, Hls) {
 
     // nothing to do if loaded without videojs/hlsjs
     if (!videojs || !Hls) {
@@ -138,4 +138,4 @@
     if (Hls.isSupported()) {
         videojs.getComponent('Html5').registerSourceHandler(HlsSourceHandler, 0);
     }
-})(window.videojs, window.Hls);
+};
