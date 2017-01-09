@@ -55,7 +55,7 @@ module.exports = function(videojs, Hls) {
             } else {
                 console.error('Error loading media: File could not be played');
             }
-        });
+        }, true);
 
         /**
          *
