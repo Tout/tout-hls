@@ -1,6 +1,6 @@
 {
-  "name": "videojs-contrib-hls.js",
-  "version": "3.0.2",
+  "name": "tout-hls",
+  "version": "3.0.3",
   "description": "hls.js plugin for videojs",
   "main": "/src/videojs5.hlsjs.js",
   "directories": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Peer5/videojs-contrib-hls.js.git"
+    "url": "git+https://github.com/Tout/tout-hls.git"
   },
   "keywords": [
     "hlsjs",
@@ -34,7 +34,7 @@
   "author": "Peer5",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Peer5/videojs-contrib-hls.js/issues"
+    "url": "https://github.com/Tout/tout-hls/issues"
   },
-  "homepage": "https://github.com/Peer5/videojs-contrib-hls.js#readme"
+  "homepage": "https://github.com/Tout/tout-hls#readme"
 }
