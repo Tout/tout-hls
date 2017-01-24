@@ -18,6 +18,8 @@ module.exports = function(videojs, Hls) {
         var duration = null;
         var hls = new Hls(options.hlsjsConfig);
 
+        tech.hls = hls;
+
         /**
          * creates an error handler function
          * @returns {Function}
