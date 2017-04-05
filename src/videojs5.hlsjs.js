@@ -50,7 +50,6 @@ module.exports = function(videojs, Hls) {
 
         // listen to error events coming from the video tag
         el.addEventListener('error', function(e) {
-          console.log('it worked!');
             var mediaError = e.currentTarget.error;
 
             if (mediaError.code === mediaError.MEDIA_ERR_DECODE) {
